@@ -22,9 +22,11 @@ class MainActivity : AppCompatActivity() {
         //toast.setGravity(Gravity.LEFT, 200, 200)
         //toast.show()
     }
+	
     val btnToastClickListener = View.OnClickListener {
         //Toast.makeText(this, "Btn Toast", Toast.LENGTH_LONG).show();
         var toast = CustomToast(this, "New message... ").createToast();
         toast.show();
     }
+	
 }
